@@ -1,9 +1,16 @@
+import NavSide from "@/components/NavSide"
+import NavTop from "@/components/NavTop"
 import Router from "@/router"
 
 function App() {
 
   return (
-    <Router/>
+    <div className="flex h-full">
+      <NavSide className="w-60 flex"></NavSide>
+      <section className="flex-1">
+        <Router/>
+      </section>
+    </div>
   )
 }
 
