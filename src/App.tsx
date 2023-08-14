@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className="flex h-full">
-      <NavSide className="w-60 flex"></NavSide>
+      <NavSide></NavSide>
       <section className="flex-1">
         <Router/>
       </section>
