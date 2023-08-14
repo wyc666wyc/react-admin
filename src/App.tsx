@@ -8,6 +8,7 @@ function App() {
     <div className="flex h-full">
       <NavSide></NavSide>
       <section className="flex-1">
+        <NavTop></NavTop>
         <Router/>
       </section>
     </div>
