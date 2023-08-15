@@ -6,7 +6,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'nav-side': "url(src/assets/img/beams.jpg)"
+      }
+    },
   },
   plugins: [
     daisyui

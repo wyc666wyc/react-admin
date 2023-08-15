@@ -6,7 +6,8 @@ const HomeRouter: RouterProps[] = [
     path: '/',
     element: <Home />,
     meta: {
-      title: '首页'
+      title: '首页',
+      index: 1
     }
   }
 ]

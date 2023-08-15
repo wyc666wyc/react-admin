@@ -4,7 +4,8 @@ export type MetaProps = {
   title: string
   keepAlive?: boolean,
   auth?: boolean,
-  key?: string
+  key?: string,
+  index?: number
 }
 
 export type RouterProps = RouteObject & {

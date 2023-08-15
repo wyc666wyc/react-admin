@@ -6,7 +6,8 @@ const HomeRouter: RouterProps[] = [
     path: '/chart',
     element: <Chart />,
     meta: {
-      title: '图表'
+      title: '图表',
+      index: 3
     }
   }
 ]
