@@ -1,5 +1,5 @@
 type NavSideProps = {}
-import { useState } from "react"
+
 import { useNavigate } from 'react-router-dom'
 import { routerArray } from '@/router'
 import type { RouterProps } from '@/router/interface'
@@ -7,6 +7,7 @@ import type { RouterProps } from '@/router/interface'
 export default function NavSide(props: NavSideProps) {
   const navigate = useNavigate()
   const handleNav = (nav: RouterProps) => {
+    console.log(props)
     navigate(nav.path!)
   }
   return (
